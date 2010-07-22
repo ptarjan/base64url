@@ -6,5 +6,5 @@ no_padding YWJj abc
 padding YQ a
 hyphen fn5- ~~~
 underscore Pz8_ ???
-# uncomment this to make sure the tests print errors
+# this should fail and print out
 on_purpose_failure YQ b
