@@ -1,6 +1,7 @@
 #!/bin/sh
+javac -cp commons-codec-1.4.jar java.java && java -cp commons-codec-1.4.jar:. java
+node node.js
 python python.py
 perl perl.pl
 php php.php
 ruby ruby.rb
-node node.js
