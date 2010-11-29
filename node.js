@@ -16,6 +16,6 @@ tests.forEach(function(test) {
     output = line[2];
     var data = base64_url_decode(input);
     if (data !== output) {
-      sys.puts('node.js: '+name+' failed. '+data+' != '+output+"\n");
+      sys.puts('node.js: '+name+' failed. '+data+' != '+output);
     }
 });
